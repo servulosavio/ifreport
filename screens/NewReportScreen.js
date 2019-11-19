@@ -5,12 +5,24 @@ import {
   TextInput,
   Text,
   TouchableOpacity,
-  CheckBox
+  CheckBox,
+  Image
 } from "react-native";
 
 import Repository from "../components/Repository";
 
 export default class NewReportScreen extends React.Component {
+
+  static navigationOptions = {
+    drawerLabel: 'Reportar',
+    drawerIcon: ({tintColor}) => (
+      <Image source={require('../images/paper-plane.png')}
+      style={styles.icon} >
+
+      </Image>
+    )
+  };
+
   render() {
     return (
       <View style={styles.container}>
@@ -25,12 +37,12 @@ export default class NewReportScreen extends React.Component {
           autoFocus
         />
 
-        <TextInput
+        {/* <TextInput
           style={styles.boxInput}
           placeholder="Nome do Repositório"
           // value={this.state.repository}
           // onChangeText={text => this.setState({repository: text})}
-        />
+        /> */}
 
         <Text> Como você classifica o seu comentário?</Text>
 
@@ -147,5 +159,12 @@ const styles = StyleSheet.create({
 
   buttonText: {
     color: "#ffffff"
-  }
+  },
+
+  icon: {
+    height: 20,
+    width: 20
+    
+  },
+
 });

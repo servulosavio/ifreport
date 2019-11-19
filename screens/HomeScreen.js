@@ -5,7 +5,7 @@ import {
   Text,
   View,
   ScrollView,
-  TouchableOpacity
+  TouchableOpacity, Image
 } from "react-native";
 
 import AsyncStorage from "@react-native-community/async-storage";
@@ -14,6 +14,16 @@ import Repository from "../components/Repository";
 import RepositoryModal from "../components/RepositoryModal";
 
 export default class HomeScreen extends React.Component {
+  static navigationOptions = {
+    drawerLabel: 'Início',
+    drawerIcon: ({tintColor}) => (
+      <Image source={require('../images/home-icon-silhouette.png')}
+      style={styles.icon} >
+
+      </Image>
+    )
+  };
+
   state = {
     repositories: [],
     modalVisible: false
@@ -147,24 +157,30 @@ export default class HomeScreen extends React.Component {
               Há um vazamento no esgoto da pia do banheiro masculino, no segundo
               piso do bloco principal
             </Text>
-            <Text style={{marginTop: 10, marginBottom: 10, fontWeight: "bold"}}>Sugestão</Text>
-            <Text style={{marginBottom: 10}}>
+            <Text
+              style={{ marginTop: 10, marginBottom: 10, fontWeight: "bold" }}
+            >
+              Sugestão
+            </Text>
+            <Text style={{ marginBottom: 10 }}>
               Sérvulo Sávio - 20162094040002
             </Text>
-            <Text style={{textAlign: "right", fontSize: 10}}>
+            <Text style={{ textAlign: "right", fontSize: 10 }}>
               11 de novembro de 2019
             </Text>
           </View>
 
           <View style={styles.caixa}>
-            <Text>
-              O jardim está muito bem cuidado!
+            <Text>O jardim está muito bem cuidado!</Text>
+            <Text
+              style={{ marginTop: 10, marginBottom: 10, fontWeight: "bold" }}
+            >
+              Elogio
             </Text>
-            <Text style={{marginTop: 10, marginBottom: 10, fontWeight: "bold"}}>Elogio</Text>
-            <Text style={{marginBottom: 10}}>
+            <Text style={{ marginBottom: 10 }}>
               Francisco das Cachorras - 20162098404009
             </Text>
-            <Text style={{textAlign: "right", fontSize: 10}}>
+            <Text style={{ textAlign: "right", fontSize: 10 }}>
               11 de novembro de 2019
             </Text>
           </View>
@@ -238,5 +254,11 @@ const styles = StyleSheet.create({
     padding: 20,
     backgroundColor: "#E2E2E2",
     justifyContent: "center"
-  }
+  },
+
+  icon: {
+    height: 20,
+    width: 20
+    
+  },
 });
