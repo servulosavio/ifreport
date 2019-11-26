@@ -14,6 +14,7 @@ import Repository from "../components/Repository";
 import RepositoryModal from "../components/RepositoryModal";
 
 export default class HomeScreen extends React.Component {
+  
   static navigationOptions = {
     drawerLabel: 'Início',
     drawerIcon: ({tintColor}) => (
