@@ -3,18 +3,7 @@ import { AppRegistry, StyleSheet, Text, TouchableOpacity, View } from 'react-nat
 import { RNCamera } from 'react-native-camera';
 
 export default class CamScreen extends PureComponent {
-
-    static navigationOptions = {
-        drawerLabel: 'Capturar',
-        // drawerIcon: ({tintColor}) => (
-        //   <Image source={require('../images/paper-plane.png')}
-        //   style={styles.icon} >
-    
-        //   </Image>
-        // )
-      };
-
-   
+ 
 
   render() {
     return (

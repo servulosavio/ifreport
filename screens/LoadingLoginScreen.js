@@ -10,16 +10,16 @@ export default class LoadingLoginScreen extends React.Component {
   
     init = async () => {
 
-      var email;
+      var usuario;
       try{
-        email = await AsyncStorage.getItem("@StudentList:email");
+        usuario = await AsyncStorage.getItem("@IfReport:usuario");
       }catch(exception){}
 
-      if(email){
-        if(email === 'elenilsonvieira@gmail.com'){
+      if(usuario){
+        if(usuario === 'usuario'){
           this.props.navigation.navigate('StackUsuario');
         }
-        else if(email === 'elenilson.vieira@ifrn.edu.br'){
+        else if(usuario === 'admin'){
           this.props.navigation.navigate('StackAdmin');
         }else{
           this.props.navigation.navigate('Login');

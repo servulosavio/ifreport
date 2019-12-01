@@ -117,15 +117,6 @@ export default class HomeScreen extends React.Component {
         <View style={styles.header}>
           <Text style={styles.headerText}>IF Report</Text>
 
-          <TouchableOpacity
-            onPress={() => this.props.navigation.navigate("NewReport")}
-          >
-            <Text style={styles.headerButton}>+</Text>
-          </TouchableOpacity>
-
-          {/* <TouchableOpacity onPress={() => this.clear()}>
-            <Text style={styles.headerButton}>-</Text>
-          </TouchableOpacity> */}
         </View>
 
         <ScrollView style={styles.scroll}>

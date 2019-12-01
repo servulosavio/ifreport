@@ -7,6 +7,7 @@ import NewReportScreen from "./screens/NewReportScreen";
 import LoginScreen from "./screens/LoginScreen";
 import LoadingLoginScreen from "./screens/LoadingLoginScreen";
 import CamScreen from "./screens/CamScreen";
+import LogoutScreen from "./screens/LogoutScreen";
 
 export default class App extends React.Component {
   render() {
@@ -26,7 +27,8 @@ takePicture = async () => {
 const DrawerNavigatorAdmin = createDrawerNavigator(
   {
     Home: HomeScreen,
-    NewReport: NewReportScreen
+    Sair: LogoutScreen,
+    // NewReport: NewReportScreen
   },
   {
     initialRouteName: "Home",
@@ -40,7 +42,8 @@ const DrawerNavigatorAdmin = createDrawerNavigator(
 const DrawerNavigatorUsuario = createDrawerNavigator(
   {
     Home: HomeScreen,
-    NewReport: NewReportScreen
+    NewReport: NewReportScreen,
+    Sair: LogoutScreen,
   },
   {
     initialRouteName: "Home",
@@ -73,7 +76,8 @@ const StackNavigatorUsuario = createStackNavigator(
     DrawerNavigator: DrawerNavigatorUsuario,
     Home: HomeScreen,
     ReportDetails: ReportDetailsScreen,
-    Cam: CamScreen
+    Cam: CamScreen,
+    
     // NewReport: NewReportScreen
   },
   {

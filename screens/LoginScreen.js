@@ -5,6 +5,7 @@ import {
   TextInput,
   Text,
   TouchableOpacity,
+  Alert,
   CheckBox,
   Image
 } from "react-native";
@@ -13,7 +14,7 @@ import Repository from "../components/Repository";
 import LoadingModal from "../components/LoadingModal";
 import AsyncStorage from "@react-native-community/async-storage";
 
-export default class NewReportScreen extends React.Component {
+export default class LoginScreen extends React.Component {
   // static navigationOptions = {
   //   drawerLabel: "Reportar",
   //   drawerIcon: ({ tintColor }) => (
@@ -35,7 +36,7 @@ export default class NewReportScreen extends React.Component {
       this.state.usuario.trim().length == 0 ||
       this.state.senha.trim().length == 0
     ) {
-      alert("Insira Ligin e Senha!");
+      Alert.alert("Ops...", "Insira o Usuário e Senha para continuar!");
     } else {
       this.setState({ modalVisible: true });
 
@@ -48,10 +49,21 @@ export default class NewReportScreen extends React.Component {
           this.setState({ modalVisible: false });
 
           this.props.navigation.navigate("StackUsuario");
+        } else if (usuario === "admin" && senha === "123") {
+          await AsyncStorage.setItem("@IfReport:usuario", usuario);
+          this.setState({ modalVisible: false });
+
+          this.props.navigation.navigate("StackAdmin");
+        } else {
+          this.setState({ modalVisible: false });
+          Alert.alert(
+            "Erro ao tentar fazer login...",
+            "Confira Usuário e Senha e tente novamente!"
+          );
         }
       } catch (erro) {
         this.setState({ modalVisible: false });
-        alert("Erro: " + erro);
+        Alert.alert("Erro ao Fazer Login", erro);
       }
     }
   };
@@ -61,6 +73,10 @@ export default class NewReportScreen extends React.Component {
       <View style={styles.container}>
         <View>
           {/* <Text> Novo Report</Text> */}
+
+          <View style={styles.logoContainer}>
+            <Image source={require("../images/logo.jpg")} style={styles.logo} />
+          </View>
 
           <TextInput
             style={styles.boxInput}
@@ -152,8 +168,13 @@ const styles = StyleSheet.create({
     color: "#ffffff"
   },
 
-  icon: {
-    height: 20,
-    width: 20
-  }
+  logo: {
+    height: 200,
+    width: 200
+  },
+
+  logoContainer: {
+    alignItems: "center",
+    justifyContent: "center"
+  },
 });
