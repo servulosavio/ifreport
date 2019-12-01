@@ -1,50 +1,80 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:1:1-26:12
-MERGED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:1:1-26:12
+ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:1:1-46:12
+MERGED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:1:1-46:12
+MERGED from [:react-native-camera] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:2:1-18:12
 MERGED from [:@react-native-community_async-storage] /home/servulo/ProjetosMobile/ifreport/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-reanimated] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.react:react-native:0.61.4] /home/servulo/.gradle/caches/transforms-2/files-2.1/3d7b8e6baf62bedf9c2acacd01947fcc/AndroidManifest.xml:2:1-13:12
-MERGED from [org.webkit:android-jsc:r245459] /home/servulo/.gradle/caches/transforms-2/files-2.1/b9a4d33ab1011efbca8b34d5547a968f/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/01746b67e6d6436844b26911aa4b13f0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fresco:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/7f7ff0fd0219bdcf8879f45db84a0551/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b8147e8ba7dc31742bb098ead4805056/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/4b3ac82f269623aab642df6ee76b8481/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/ebe55c78ea7fd273a73919b30a870d01/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/7c8bf9ec5af0d077ac8f3cc5076de48f/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/368e9a2f683aa2fead83e5d29755573f/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/9ff8ef866f7bcdb296ac39a9d78891a5/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.6.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/1c718267acb5b917a6cc18deb0065a2e/AndroidManifest.xml:2:1-13:12
-MERGED from [androidx.transition:transition:1.1.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/817b7113a0c1aae7eb56efca8ad43b11/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/ea3f8b5813090eadc8d4cd3319d2d8b8/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/264b347ae92c9db2399df1ec63f7fd0e/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/10b6bc41aa855fa4f10bbfbb78c8bbbd/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/db845cb41ba81838aa6335e014806cba/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/servulo/.gradle/caches/transforms-2/files-2.1/f94deaf69f89eb81c497e9590d73c2a6/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/4eebd013e5648366f5ece282d5b80e5b/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/a941352960084a075d7933ad11daeb55/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/0d1fd9400af637973fb28186afe9aab0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/3a784466eb640a86ec6a05c40848390b/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/7b0e8733f9e5de116f6cee22848e6c19/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/9976c88a8525ea5ed12a1131d700ab87/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cb7c24321bb44bf34139c12e1b8fe143/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/0ec9dd32c0151bd665273fb74fcfaaf5/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.1] /home/servulo/.gradle/caches/transforms-2/files-2.1/2bac47a806e2774f101f284fce818281/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/412534c1e720ac45b57338e15bdd756b/AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/4cf6978fdb2ad8ad38631653c3ed57d8/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cf832421cb8810754c12a364741740b1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/16cddd8fe29833e579cc9898d46809e5/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/be6ac79453076b3f9eb902c337dcb80c/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/45b2ef339136e2f29a5e7b84244c91e3/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/dad4fd60bfe2475e278ccb801ae8018e/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/4229d8f3fad2e06e050cf76053ee41a0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/f3a87f946d112ffa57cc7333828f8ab4/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/00d45b13552735cce503d13ccb003415/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/9b3c3142fb2b4ab6e3589f59cdc707b3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/546f5dbd28fb042c502e2a3e52bec40a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.react:react-native:0.61.4] /home/servulo/.gradle/caches/transforms-2/files-2.1/cf802cc8ffe4c09c71fa0a066457805f/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/e5454ea47d9ec81c163cc20c3bd37b7f/AndroidManifest.xml:2:1-9:12
+MERGED from [org.webkit:android-jsc:r245459] /home/servulo/.gradle/caches/transforms-2/files-2.1/9ebfd246a346ca369de2befee6bb80aa/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-ml-vision:19.0.3] /home/servulo/.gradle/caches/transforms-2/files-2.1/ba394616d88eee02042227828c8a2521/AndroidManifest.xml:2:1-8:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/8f950fa70e12aa588d577bd0928687cc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/b54c52e5b3457dbe4d28c35bc54dfa37/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.1.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/28b00bd35ab41002194c5f1a5228cf02/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/63129fce7a0bcf9bb589607cec130f4f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/eb850e9d39a01ec2b4400fdd54d1b1eb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/c229483079b21f0a58c7d1b32a8df8ca/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/849df2860220818bb3ecea83aa9476a4/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/17f77469b45d5a3bee83db8feb46d53b/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/1c8090edccc7650aec530bb080fa8b49/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/07f7612f4c03aa59e04b4eaf912ae797/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/5e0b379bb17172a2870f4d0af869bd2e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/a20f1fc59b726aa7ace2ff758f83222b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-common:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/f6e36e05cbabf12995ac3800cbab5a01/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/fa1c90e06afb8d4997ed89cf772974ca/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/servulo/.gradle/caches/transforms-2/files-2.1/cec6ff0280372a73b06a6c1786f85a8a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/d463ade2b26d20b5a41a58eaf255a32c/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/2ce5acaf64a1a9021fe3cbf9080edef1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/8bf997f8c889fb79ecc6c41c3c1d70b4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/c235077b586b08b9028844b2b008799d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-common:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b25bf345c4d97f8ccbe626465ab4ccdd/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/ad857655e0067883219a44adb8eba409/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/4543ba38be6f4e7871ced1e142e780fe/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b56ed7b10701bd728aeef35e57b74ffa/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/846e9c93e57b19dda1522ddb198e4ff6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/de17acfe92abdd1841e75f2c9e3c13b6/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/a4e291b0533956304f304300b611225b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/02457f7cfe555c7c1ea0da3905b15075/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/fea952b0845007472e2b33f3392ba1b4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b4135a1903f503c5ba1fba0d5919e5dc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/11254b2578d44520924eebcd66c2a6cc/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/a9a7f26551fd38436a681ce10fa63ce2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/servulo/.gradle/caches/transforms-2/files-2.1/a58deb8991cfa38af43fcf74f8aadeb4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/642d9b5cb68392f634088574b8054c20/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/934c9d9ebfc7101c0e65366ca5e490fe/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/c9cd801fb47e407b69bf7dbf879fe217/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/de562292799f52eae465f61482cc4a4b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/0103d11d56b15819a3fc9b949db2fd4a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/5b819ffef78e7e020358333ae699dbb5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b664d6fa67319dde38c3e9d4d3ace5d9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/515e673bb1d72c49e5a28fec68c5f749/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /home/servulo/.gradle/caches/transforms-2/files-2.1/001aabd16520a25bc6004dc0ad20d35d/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/8c52bb0711928f0622c3056c026002c9/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/77cf7f0d93cfd0320408b54bf86f4ef1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/5157f3eb76cb59073c9f2889752c52f1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/c8f9071b092f7c709f98cb86941a8e1a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/92900fa6f8b64a8b04781c71cb1ca7e9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/3243a61e33a4f1e2015564a9fece7d68/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/9935c9fde6da6eaa7d9f5a5409a09de3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/bad0f3c2953ede7633fbea7e2b8fa513/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/3333af100f82127e57d7eac4f2b9bdce/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/15fc7bf7c03009030128c1ca9c74e5bb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/758a74d8e80ea562d9db3153731c300d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/8663638248849ad64217a3a5f9816f7f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/4dc3893f78d108987f81d3f436b8e9f4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/1121f0c00e8d060426d4ca66ef2ec414/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/9b02d4b7f0efd0fa91584704873091af/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/d295f5dc871a018a68173adc5a22396a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b33ec4ed5d96adbb5ead308ac330d5ae/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/7d78cadb863294efff9a547a8928509f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/bd2241cb474b82320e6d0d9cbcfc343f/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/c20d6f903295c77df7d8fd31e810443f/AndroidManifest.xml:2:1-9:12
 INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/debug/AndroidManifest.xml:2:1-8:12
@@ -55,166 +85,302 @@ INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/debug/Androi
 		INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:1:1-46:12
 		INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:1:1-46:12
 		INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/849df2860220818bb3ecea83aa9476a4/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/849df2860220818bb3ecea83aa9476a4/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/d463ade2b26d20b5a41a58eaf255a32c/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/d463ade2b26d20b5a41a58eaf255a32c/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/2ce5acaf64a1a9021fe3cbf9080edef1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/2ce5acaf64a1a9021fe3cbf9080edef1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:8:5-65
+MERGED from [:react-native-camera] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:9:5-65
+MERGED from [:react-native-camera] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:8:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:11:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:15:5-70
+	android:name
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:15:22-68
 application
-ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from [com.facebook.react:react-native:0.61.4] /home/servulo/.gradle/caches/transforms-2/files-2.1/3d7b8e6baf62bedf9c2acacd01947fcc/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.61.4] /home/servulo/.gradle/caches/transforms-2/files-2.1/3d7b8e6baf62bedf9c2acacd01947fcc/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.6.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/1c718267acb5b917a6cc18deb0065a2e/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.6.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/1c718267acb5b917a6cc18deb0065a2e/AndroidManifest.xml:11:5-20
-MERGED from [androidx.core:core:1.0.1] /home/servulo/.gradle/caches/transforms-2/files-2.1/2bac47a806e2774f101f284fce818281/AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.1] /home/servulo/.gradle/caches/transforms-2/files-2.1/2bac47a806e2774f101f284fce818281/AndroidManifest.xml:22:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/412534c1e720ac45b57338e15bdd756b/AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/412534c1e720ac45b57338e15bdd756b/AndroidManifest.xml:22:5-23:19
+ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:18:5-44:19
+MERGED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:18:5-44:19
+MERGED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:18:5-44:19
+MERGED from [com.facebook.react:react-native:0.61.4] /home/servulo/.gradle/caches/transforms-2/files-2.1/cf802cc8ffe4c09c71fa0a066457805f/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.4] /home/servulo/.gradle/caches/transforms-2/files-2.1/cf802cc8ffe4c09c71fa0a066457805f/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/e5454ea47d9ec81c163cc20c3bd37b7f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/e5454ea47d9ec81c163cc20c3bd37b7f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/c229483079b21f0a58c7d1b32a8df8ca/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/c229483079b21f0a58c7d1b32a8df8ca/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/849df2860220818bb3ecea83aa9476a4/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/849df2860220818bb3ecea83aa9476a4/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/17f77469b45d5a3bee83db8feb46d53b/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/17f77469b45d5a3bee83db8feb46d53b/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/07f7612f4c03aa59e04b4eaf912ae797/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/07f7612f4c03aa59e04b4eaf912ae797/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/5e0b379bb17172a2870f4d0af869bd2e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/5e0b379bb17172a2870f4d0af869bd2e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/a20f1fc59b726aa7ace2ff758f83222b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/a20f1fc59b726aa7ace2ff758f83222b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/fa1c90e06afb8d4997ed89cf772974ca/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/fa1c90e06afb8d4997ed89cf772974ca/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/d463ade2b26d20b5a41a58eaf255a32c/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/d463ade2b26d20b5a41a58eaf255a32c/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/8bf997f8c889fb79ecc6c41c3c1d70b4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/8bf997f8c889fb79ecc6c41c3c1d70b4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/c235077b586b08b9028844b2b008799d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/c235077b586b08b9028844b2b008799d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-common:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b25bf345c4d97f8ccbe626465ab4ccdd/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b25bf345c4d97f8ccbe626465ab4ccdd/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/ad857655e0067883219a44adb8eba409/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/ad857655e0067883219a44adb8eba409/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/4543ba38be6f4e7871ced1e142e780fe/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/4543ba38be6f4e7871ced1e142e780fe/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b56ed7b10701bd728aeef35e57b74ffa/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b56ed7b10701bd728aeef35e57b74ffa/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/846e9c93e57b19dda1522ddb198e4ff6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/846e9c93e57b19dda1522ddb198e4ff6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/de17acfe92abdd1841e75f2c9e3c13b6/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/de17acfe92abdd1841e75f2c9e3c13b6/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/a4e291b0533956304f304300b611225b/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/a4e291b0533956304f304300b611225b/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/02457f7cfe555c7c1ea0da3905b15075/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/02457f7cfe555c7c1ea0da3905b15075/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.1] /home/servulo/.gradle/caches/transforms-2/files-2.1/001aabd16520a25bc6004dc0ad20d35d/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /home/servulo/.gradle/caches/transforms-2/files-2.1/001aabd16520a25bc6004dc0ad20d35d/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/8c52bb0711928f0622c3056c026002c9/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/8c52bb0711928f0622c3056c026002c9/AndroidManifest.xml:22:5-23:19
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/bd2241cb474b82320e6d0d9cbcfc343f/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/bd2241cb474b82320e6d0d9cbcfc343f/AndroidManifest.xml:11:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.1] /home/servulo/.gradle/caches/transforms-2/files-2.1/2bac47a806e2774f101f284fce818281/AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.0.1] /home/servulo/.gradle/caches/transforms-2/files-2.1/001aabd16520a25bc6004dc0ad20d35d/AndroidManifest.xml:22:18-86
 	android:label
-		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:8:7-39
-		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:20:7-39
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:20:7-39
 	tools:ignore
 		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/debug/AndroidManifest.xml:7:75-114
 	android:roundIcon
-		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:10:7-52
-		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:22:7-52
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:22:7-52
 	tools:targetApi
 		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/debug/AndroidManifest.xml:7:54-74
 	android:icon
-		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:9:7-41
-		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:21:7-41
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:21:7-41
 	android:allowBackup
-		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:11:7-34
-		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:23:7-34
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:23:7-34
 	android:theme
-		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:12:7-38
-		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:24:7-38
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:24:7-38
 	android:usesCleartextTraffic
 		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/debug/AndroidManifest.xml:7:18-53
 	android:name
-		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:7:7-38
-		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:19:7-38
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:19:7-38
 activity#com.ifreport.MainActivity
-ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:13:7-22:18
+ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:25:7-34:18
 	android:label
-		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:27:9-41
 	android:windowSoftInputMode
-		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:17:9-51
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:29:9-51
 	android:configChanges
-		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:16:9-79
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:28:9-79
 	android:name
-		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:14:9-37
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:26:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:18:9-21:25
+ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:30:9-33:25
 action#android.intent.action.MAIN
-ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:19:13-65
+ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:31:13-65
 	android:name
-		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:19:21-62
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:31:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:20:13-73
+ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:32:13-73
 	android:name
-		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:20:23-70
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:32:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:23:7-84
+ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:35:7-84
 	android:name
-		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:23:17-81
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:35:17-81
+meta-data#com.google.firebase.ml.vision.DEPENDENCIES
+ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:38:7-40:35
+	android:value
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:40:7-32
+	android:name
+		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:39:7-64
 uses-sdk
 INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-camera] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-camera] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:5:5-7:41
 MERGED from [:@react-native-community_async-storage] /home/servulo/ProjetosMobile/ifreport/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:@react-native-community_async-storage] /home/servulo/ProjetosMobile/ifreport/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-reanimated] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.61.4] /home/servulo/.gradle/caches/transforms-2/files-2.1/3d7b8e6baf62bedf9c2acacd01947fcc/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.61.4] /home/servulo/.gradle/caches/transforms-2/files-2.1/3d7b8e6baf62bedf9c2acacd01947fcc/AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r245459] /home/servulo/.gradle/caches/transforms-2/files-2.1/b9a4d33ab1011efbca8b34d5547a968f/AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r245459] /home/servulo/.gradle/caches/transforms-2/files-2.1/b9a4d33ab1011efbca8b34d5547a968f/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.appcompat:appcompat:1.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/01746b67e6d6436844b26911aa4b13f0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/01746b67e6d6436844b26911aa4b13f0/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fresco:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/7f7ff0fd0219bdcf8879f45db84a0551/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/7f7ff0fd0219bdcf8879f45db84a0551/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b8147e8ba7dc31742bb098ead4805056/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b8147e8ba7dc31742bb098ead4805056/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/4b3ac82f269623aab642df6ee76b8481/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/4b3ac82f269623aab642df6ee76b8481/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/ebe55c78ea7fd273a73919b30a870d01/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/ebe55c78ea7fd273a73919b30a870d01/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/7c8bf9ec5af0d077ac8f3cc5076de48f/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/7c8bf9ec5af0d077ac8f3cc5076de48f/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/368e9a2f683aa2fead83e5d29755573f/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/368e9a2f683aa2fead83e5d29755573f/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/9ff8ef866f7bcdb296ac39a9d78891a5/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/9ff8ef866f7bcdb296ac39a9d78891a5/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.6.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/1c718267acb5b917a6cc18deb0065a2e/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.6.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/1c718267acb5b917a6cc18deb0065a2e/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.transition:transition:1.1.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/817b7113a0c1aae7eb56efca8ad43b11/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.1.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/817b7113a0c1aae7eb56efca8ad43b11/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/ea3f8b5813090eadc8d4cd3319d2d8b8/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/ea3f8b5813090eadc8d4cd3319d2d8b8/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/264b347ae92c9db2399df1ec63f7fd0e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/264b347ae92c9db2399df1ec63f7fd0e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/10b6bc41aa855fa4f10bbfbb78c8bbbd/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/10b6bc41aa855fa4f10bbfbb78c8bbbd/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/db845cb41ba81838aa6335e014806cba/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/db845cb41ba81838aa6335e014806cba/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/servulo/.gradle/caches/transforms-2/files-2.1/f94deaf69f89eb81c497e9590d73c2a6/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/servulo/.gradle/caches/transforms-2/files-2.1/f94deaf69f89eb81c497e9590d73c2a6/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/4eebd013e5648366f5ece282d5b80e5b/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/4eebd013e5648366f5ece282d5b80e5b/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/a941352960084a075d7933ad11daeb55/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/a941352960084a075d7933ad11daeb55/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/0d1fd9400af637973fb28186afe9aab0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/0d1fd9400af637973fb28186afe9aab0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/3a784466eb640a86ec6a05c40848390b/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/3a784466eb640a86ec6a05c40848390b/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/7b0e8733f9e5de116f6cee22848e6c19/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/7b0e8733f9e5de116f6cee22848e6c19/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/9976c88a8525ea5ed12a1131d700ab87/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/9976c88a8525ea5ed12a1131d700ab87/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cb7c24321bb44bf34139c12e1b8fe143/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cb7c24321bb44bf34139c12e1b8fe143/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/0ec9dd32c0151bd665273fb74fcfaaf5/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/0ec9dd32c0151bd665273fb74fcfaaf5/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.1] /home/servulo/.gradle/caches/transforms-2/files-2.1/2bac47a806e2774f101f284fce818281/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.1] /home/servulo/.gradle/caches/transforms-2/files-2.1/2bac47a806e2774f101f284fce818281/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/412534c1e720ac45b57338e15bdd756b/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/412534c1e720ac45b57338e15bdd756b/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/4cf6978fdb2ad8ad38631653c3ed57d8/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/4cf6978fdb2ad8ad38631653c3ed57d8/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cf832421cb8810754c12a364741740b1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cf832421cb8810754c12a364741740b1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/16cddd8fe29833e579cc9898d46809e5/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/16cddd8fe29833e579cc9898d46809e5/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/be6ac79453076b3f9eb902c337dcb80c/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/be6ac79453076b3f9eb902c337dcb80c/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/45b2ef339136e2f29a5e7b84244c91e3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/45b2ef339136e2f29a5e7b84244c91e3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/dad4fd60bfe2475e278ccb801ae8018e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/dad4fd60bfe2475e278ccb801ae8018e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/4229d8f3fad2e06e050cf76053ee41a0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/4229d8f3fad2e06e050cf76053ee41a0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/f3a87f946d112ffa57cc7333828f8ab4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/f3a87f946d112ffa57cc7333828f8ab4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/00d45b13552735cce503d13ccb003415/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/00d45b13552735cce503d13ccb003415/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/9b3c3142fb2b4ab6e3589f59cdc707b3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/9b3c3142fb2b4ab6e3589f59cdc707b3/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/546f5dbd28fb042c502e2a3e52bec40a/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/546f5dbd28fb042c502e2a3e52bec40a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.61.4] /home/servulo/.gradle/caches/transforms-2/files-2.1/cf802cc8ffe4c09c71fa0a066457805f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.4] /home/servulo/.gradle/caches/transforms-2/files-2.1/cf802cc8ffe4c09c71fa0a066457805f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/e5454ea47d9ec81c163cc20c3bd37b7f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/e5454ea47d9ec81c163cc20c3bd37b7f/AndroidManifest.xml:5:5-44
+MERGED from [org.webkit:android-jsc:r245459] /home/servulo/.gradle/caches/transforms-2/files-2.1/9ebfd246a346ca369de2befee6bb80aa/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/servulo/.gradle/caches/transforms-2/files-2.1/9ebfd246a346ca369de2befee6bb80aa/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-ml-vision:19.0.3] /home/servulo/.gradle/caches/transforms-2/files-2.1/ba394616d88eee02042227828c8a2521/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:19.0.3] /home/servulo/.gradle/caches/transforms-2/files-2.1/ba394616d88eee02042227828c8a2521/AndroidManifest.xml:6:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/8f950fa70e12aa588d577bd0928687cc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/8f950fa70e12aa588d577bd0928687cc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/b54c52e5b3457dbe4d28c35bc54dfa37/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/b54c52e5b3457dbe4d28c35bc54dfa37/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/28b00bd35ab41002194c5f1a5228cf02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/28b00bd35ab41002194c5f1a5228cf02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/63129fce7a0bcf9bb589607cec130f4f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/63129fce7a0bcf9bb589607cec130f4f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/eb850e9d39a01ec2b4400fdd54d1b1eb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/eb850e9d39a01ec2b4400fdd54d1b1eb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/c229483079b21f0a58c7d1b32a8df8ca/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:17.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/c229483079b21f0a58c7d1b32a8df8ca/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/849df2860220818bb3ecea83aa9476a4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/849df2860220818bb3ecea83aa9476a4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/17f77469b45d5a3bee83db8feb46d53b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/17f77469b45d5a3bee83db8feb46d53b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/1c8090edccc7650aec530bb080fa8b49/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/1c8090edccc7650aec530bb080fa8b49/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/07f7612f4c03aa59e04b4eaf912ae797/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/07f7612f4c03aa59e04b4eaf912ae797/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/5e0b379bb17172a2870f4d0af869bd2e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/5e0b379bb17172a2870f4d0af869bd2e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/a20f1fc59b726aa7ace2ff758f83222b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/servulo/.gradle/caches/transforms-2/files-2.1/a20f1fc59b726aa7ace2ff758f83222b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-common:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/f6e36e05cbabf12995ac3800cbab5a01/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-common:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/f6e36e05cbabf12995ac3800cbab5a01/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/fa1c90e06afb8d4997ed89cf772974ca/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/fa1c90e06afb8d4997ed89cf772974ca/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/servulo/.gradle/caches/transforms-2/files-2.1/cec6ff0280372a73b06a6c1786f85a8a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/servulo/.gradle/caches/transforms-2/files-2.1/cec6ff0280372a73b06a6c1786f85a8a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/d463ade2b26d20b5a41a58eaf255a32c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/d463ade2b26d20b5a41a58eaf255a32c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/2ce5acaf64a1a9021fe3cbf9080edef1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/2ce5acaf64a1a9021fe3cbf9080edef1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/8bf997f8c889fb79ecc6c41c3c1d70b4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/8bf997f8c889fb79ecc6c41c3c1d70b4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/c235077b586b08b9028844b2b008799d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/c235077b586b08b9028844b2b008799d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b25bf345c4d97f8ccbe626465ab4ccdd/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b25bf345c4d97f8ccbe626465ab4ccdd/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/ad857655e0067883219a44adb8eba409/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/ad857655e0067883219a44adb8eba409/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/4543ba38be6f4e7871ced1e142e780fe/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/4543ba38be6f4e7871ced1e142e780fe/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b56ed7b10701bd728aeef35e57b74ffa/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b56ed7b10701bd728aeef35e57b74ffa/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/846e9c93e57b19dda1522ddb198e4ff6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/846e9c93e57b19dda1522ddb198e4ff6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/de17acfe92abdd1841e75f2c9e3c13b6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/de17acfe92abdd1841e75f2c9e3c13b6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/a4e291b0533956304f304300b611225b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/a4e291b0533956304f304300b611225b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/02457f7cfe555c7c1ea0da3905b15075/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/02457f7cfe555c7c1ea0da3905b15075/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/fea952b0845007472e2b33f3392ba1b4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/fea952b0845007472e2b33f3392ba1b4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b4135a1903f503c5ba1fba0d5919e5dc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b4135a1903f503c5ba1fba0d5919e5dc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/11254b2578d44520924eebcd66c2a6cc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/11254b2578d44520924eebcd66c2a6cc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/a9a7f26551fd38436a681ce10fa63ce2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/a9a7f26551fd38436a681ce10fa63ce2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/servulo/.gradle/caches/transforms-2/files-2.1/a58deb8991cfa38af43fcf74f8aadeb4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/servulo/.gradle/caches/transforms-2/files-2.1/a58deb8991cfa38af43fcf74f8aadeb4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/642d9b5cb68392f634088574b8054c20/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/642d9b5cb68392f634088574b8054c20/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/934c9d9ebfc7101c0e65366ca5e490fe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/934c9d9ebfc7101c0e65366ca5e490fe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/c9cd801fb47e407b69bf7dbf879fe217/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/c9cd801fb47e407b69bf7dbf879fe217/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/de562292799f52eae465f61482cc4a4b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/de562292799f52eae465f61482cc4a4b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/0103d11d56b15819a3fc9b949db2fd4a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/0103d11d56b15819a3fc9b949db2fd4a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/5b819ffef78e7e020358333ae699dbb5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/5b819ffef78e7e020358333ae699dbb5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b664d6fa67319dde38c3e9d4d3ace5d9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b664d6fa67319dde38c3e9d4d3ace5d9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/515e673bb1d72c49e5a28fec68c5f749/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/515e673bb1d72c49e5a28fec68c5f749/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/servulo/.gradle/caches/transforms-2/files-2.1/001aabd16520a25bc6004dc0ad20d35d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/servulo/.gradle/caches/transforms-2/files-2.1/001aabd16520a25bc6004dc0ad20d35d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/8c52bb0711928f0622c3056c026002c9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/8c52bb0711928f0622c3056c026002c9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/77cf7f0d93cfd0320408b54bf86f4ef1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/77cf7f0d93cfd0320408b54bf86f4ef1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/5157f3eb76cb59073c9f2889752c52f1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/5157f3eb76cb59073c9f2889752c52f1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/c8f9071b092f7c709f98cb86941a8e1a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/c8f9071b092f7c709f98cb86941a8e1a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/92900fa6f8b64a8b04781c71cb1ca7e9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/92900fa6f8b64a8b04781c71cb1ca7e9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/3243a61e33a4f1e2015564a9fece7d68/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/3243a61e33a4f1e2015564a9fece7d68/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/9935c9fde6da6eaa7d9f5a5409a09de3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/9935c9fde6da6eaa7d9f5a5409a09de3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/bad0f3c2953ede7633fbea7e2b8fa513/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/bad0f3c2953ede7633fbea7e2b8fa513/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/3333af100f82127e57d7eac4f2b9bdce/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/3333af100f82127e57d7eac4f2b9bdce/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/15fc7bf7c03009030128c1ca9c74e5bb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/15fc7bf7c03009030128c1ca9c74e5bb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/758a74d8e80ea562d9db3153731c300d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/758a74d8e80ea562d9db3153731c300d/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/8663638248849ad64217a3a5f9816f7f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/8663638248849ad64217a3a5f9816f7f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/4dc3893f78d108987f81d3f436b8e9f4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/4dc3893f78d108987f81d3f436b8e9f4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/1121f0c00e8d060426d4ca66ef2ec414/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/1121f0c00e8d060426d4ca66ef2ec414/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/9b02d4b7f0efd0fa91584704873091af/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/9b02d4b7f0efd0fa91584704873091af/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/d295f5dc871a018a68173adc5a22396a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/d295f5dc871a018a68173adc5a22396a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b33ec4ed5d96adbb5ead308ac330d5ae/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b33ec4ed5d96adbb5ead308ac330d5ae/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/7d78cadb863294efff9a547a8928509f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/7d78cadb863294efff9a547a8928509f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/bd2241cb474b82320e6d0d9cbcfc343f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/bd2241cb474b82320e6d0d9cbcfc343f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/c20d6f903295c77df7d8fd31e810443f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/c20d6f903295c77df7d8fd31e810443f/AndroidManifest.xml:5:5-7:41
 INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/debug/AndroidManifest.xml
 INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
@@ -227,3 +393,151 @@ uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/debug/AndroidManifest.xml:5:5-77
 	android:name
 		ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/debug/AndroidManifest.xml:5:22-75
+uses-feature#android.hardware.camera
+ADDED from [:react-native-camera] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [:react-native-camera] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from [:react-native-camera] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:12:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:react-native-camera] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [:react-native-camera] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [:react-native-camera] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:15:9-57
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/849df2860220818bb3ecea83aa9476a4/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/849df2860220818bb3ecea83aa9476a4/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/d463ade2b26d20b5a41a58eaf255a32c/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/d463ade2b26d20b5a41a58eaf255a32c/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/2ce5acaf64a1a9021fe3cbf9080edef1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/2ce5acaf64a1a9021fe3cbf9080edef1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/849df2860220818bb3ecea83aa9476a4/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/849df2860220818bb3ecea83aa9476a4/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/d463ade2b26d20b5a41a58eaf255a32c/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/d463ade2b26d20b5a41a58eaf255a32c/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/2ce5acaf64a1a9021fe3cbf9080edef1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/2ce5acaf64a1a9021fe3cbf9080edef1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/d463ade2b26d20b5a41a58eaf255a32c/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/d463ade2b26d20b5a41a58eaf255a32c/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/d463ade2b26d20b5a41a58eaf255a32c/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/d463ade2b26d20b5a41a58eaf255a32c/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:49:13-87
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/849df2860220818bb3ecea83aa9476a4/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/849df2860220818bb3ecea83aa9476a4/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/849df2860220818bb3ecea83aa9476a4/AndroidManifest.xml:28:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/849df2860220818bb3ecea83aa9476a4/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/849df2860220818bb3ecea83aa9476a4/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/849df2860220818bb3ecea83aa9476a4/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/04cd0bb9940ffc643f1cf0d0448c5736/AndroidManifest.xml:42:25-78
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b25bf345c4d97f8ccbe626465ab4ccdd/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b25bf345c4d97f8ccbe626465ab4ccdd/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b25bf345c4d97f8ccbe626465ab4ccdd/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b25bf345c4d97f8ccbe626465ab4ccdd/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b25bf345c4d97f8ccbe626465ab4ccdd/AndroidManifest.xml:13:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b56ed7b10701bd728aeef35e57b74ffa/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b56ed7b10701bd728aeef35e57b74ffa/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b56ed7b10701bd728aeef35e57b74ffa/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/b56ed7b10701bd728aeef35e57b74ffa/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/02457f7cfe555c7c1ea0da3905b15075/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/02457f7cfe555c7c1ea0da3905b15075/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/02457f7cfe555c7c1ea0da3905b15075/AndroidManifest.xml:24:13-58

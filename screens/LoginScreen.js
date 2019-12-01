@@ -25,13 +25,16 @@ export default class NewReportScreen extends React.Component {
   // };
 
   state = {
-    usuario: '',
-    senha: '',
+    usuario: "",
+    senha: "",
     modalVisible: false
   };
 
   login = async () => {
-    if (this.state.usuario.trim().length == 0 || this.state.senha.trim().length == 0) {
+    if (
+      this.state.usuario.trim().length == 0 ||
+      this.state.senha.trim().length == 0
+    ) {
       alert("Insira Ligin e Senha!");
     } else {
       this.setState({ modalVisible: true });
@@ -63,21 +66,19 @@ export default class NewReportScreen extends React.Component {
             style={styles.boxInput}
             autoFocus
             placeholder="Usuário"
-            autoCapitalize='none'
-            keyboardType='default'
+            autoCapitalize="none"
+            keyboardType="default"
             value={this.state.login}
-            onChangeText={usuario => this.setState({usuario})}
-            
+            onChangeText={usuario => this.setState({ usuario })}
           />
 
           <TextInput
             style={styles.boxInput}
             placeholder="Senha"
-            autoCapitalize='none'
+            autoCapitalize="none"
             secureTextEntry={true}
             value={this.state.senha}
-            onChangeText={senha => this.setState({senha})}
-            
+            onChangeText={senha => this.setState({ senha })}
           />
 
           <View style={styles.buttonContainer}>
@@ -91,7 +92,6 @@ export default class NewReportScreen extends React.Component {
         </View>
 
         <LoadingModal modalVisible={this.state.modalVisible} />
-
       </View>
     );
   }

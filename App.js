@@ -6,10 +6,19 @@ import ReportDetailsScreen from "./screens/ReportDetailsScreen";
 import NewReportScreen from "./screens/NewReportScreen";
 import LoginScreen from "./screens/LoginScreen";
 import LoadingLoginScreen from "./screens/LoadingLoginScreen";
+import CamScreen from "./screens/CamScreen";
 
 export default class App extends React.Component {
   render() {
     return <SwitchNavigator />;
+  }
+}
+
+takePicture = async () => {
+  if (this.camera) {
+    const options = { quality: 0.5, base64: true };
+    const data = await this.camera.takePictureAsync(options)
+    alert(data.uri);
   }
 }
 
@@ -64,6 +73,7 @@ const StackNavigatorUsuario = createStackNavigator(
     DrawerNavigator: DrawerNavigatorUsuario,
     Home: HomeScreen,
     ReportDetails: ReportDetailsScreen,
+    Cam: CamScreen
     // NewReport: NewReportScreen
   },
   {

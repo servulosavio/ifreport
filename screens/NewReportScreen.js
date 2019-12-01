@@ -9,17 +9,18 @@ import {
   Image
 } from "react-native";
 
+import { RNCamera } from "react-native-camera";
+
 import Repository from "../components/Repository";
 
 export default class NewReportScreen extends React.Component {
-
   static navigationOptions = {
-    drawerLabel: 'Reportar',
-    drawerIcon: ({tintColor}) => (
-      <Image source={require('../images/paper-plane.png')}
-      style={styles.icon} >
-
-      </Image>
+    drawerLabel: "Reportar",
+    drawerIcon: ({ tintColor }) => (
+      <Image
+        source={require("../images/paper-plane.png")}
+        style={styles.icon}
+      ></Image>
     )
   };
 
@@ -44,53 +45,77 @@ export default class NewReportScreen extends React.Component {
           // onChangeText={text => this.setState({repository: text})}
         /> */}
 
+        <View style={{ flexDirection: "column", marginBottom: 10, marginTop: 10 }}>
+          <TouchableOpacity
+            onPress={() => this.props.navigation.navigate("Cam")}
+          >
+            <View style={{ flexDirection: "row", marginBottom: 10 }}>
+              <Image
+                source={require("../images/photo-camera.png")}
+                style={styles.icon}
+              />
+
+              <Text style={styles.buttonText2}> Capturar Imagem</Text>
+            </View>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+          //   onPress={() => this.add()}
+          >
+            <View style={{ flexDirection: "row" }}>
+              <Image
+                source={require("../images/picture.png")}
+                style={styles.icon}
+              />
+
+              <Text style={styles.buttonText2}> Inserir Imagem</Text>
+            </View>
+          </TouchableOpacity>
+          
+        </View>
+
         <Text> Como você classifica o seu comentário?</Text>
 
-        <View style={{flexDirection: "row", justifyContent: "space-around"}}>
-
-        <View style={{ flexDirection: "column" }}>
-        
-          <View style={{ flexDirection: "row" }}>
-            <CheckBox
-            //   value={this.state.checked}
-            //   onValueChange={() => this.setState({ checked: !this.state.checked })}
-            />
-            <Text style={{ marginTop: 5 }}> Crítica</Text>
+        <View style={{ flexDirection: "row", justifyContent: "space-around" }}>
+          <View style={{ flexDirection: "column" }}>
+            <View style={{ flexDirection: "row" }}>
+              <CheckBox
+              //   value={this.state.checked}
+              //   onValueChange={() => this.setState({ checked: !this.state.checked })}
+              />
+              <Text style={{ marginTop: 5 }}> Crítica</Text>
+            </View>
+            <View style={{ flexDirection: "row" }}>
+              <CheckBox
+              //   value={this.state.checked}
+              //   onValueChange={() => this.setState({ checked: !this.state.checked })}
+              />
+              <Text style={{ marginTop: 5 }}> Sugestão</Text>
+            </View>
           </View>
-          <View style={{ flexDirection: "row" }}>
-            <CheckBox
-            //   value={this.state.checked}
-            //   onValueChange={() => this.setState({ checked: !this.state.checked })}
-            />
-            <Text style={{ marginTop: 5 }}> Sugestão</Text>
+
+          <View style={{ flexDirection: "column" }}>
+            <View style={{ flexDirection: "row" }}>
+              <CheckBox
+              //   value={this.state.checked}
+              //   onValueChange={() => this.setState({ checked: !this.state.checked })}
+              />
+              <Text style={{ marginTop: 5 }}> Elogio</Text>
+            </View>
+            <View style={{ flexDirection: "row" }}>
+              <CheckBox
+              //   value={this.state.checked}
+              //   onValueChange={() => this.setState({ checked: !this.state.checked })}
+              />
+              <Text style={{ marginTop: 5 }}> Outros</Text>
+            </View>
           </View>
         </View>
-        
-        <View style={{ flexDirection: "column" }}>      
-          <View style={{ flexDirection: "row" }}>
-            <CheckBox
-            //   value={this.state.checked}
-            //   onValueChange={() => this.setState({ checked: !this.state.checked })}
-            />
-            <Text style={{ marginTop: 5 }}> Elogio</Text>
-          </View>
-          <View style={{ flexDirection: "row" }}>
-            <CheckBox
-            //   value={this.state.checked}
-            //   onValueChange={() => this.setState({ checked: !this.state.checked })}
-            />
-            <Text style={{ marginTop: 5 }}> Outros</Text>
-          </View>
-        </View>
-
-        </View>
-
-        
 
         <View style={styles.buttonContainer}>
           <TouchableOpacity
             style={styles.buttonCancel}
-            //   onPress={() => this.props.onCancel()}
+            onPress={() => this.props.navigation.navigate("Home")}
           >
             <Text style={styles.buttonText}>Cancelar</Text>
           </TouchableOpacity>
@@ -161,10 +186,12 @@ const styles = StyleSheet.create({
     color: "#ffffff"
   },
 
+  buttonText2: {
+    color: "#000000"
+  },
+
   icon: {
     height: 20,
     width: 20
-    
-  },
-
+  }
 });
