@@ -18,6 +18,8 @@ import com.ifreport.R;
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 // react-native-camera
 import org.reactnative.camera.RNCameraPackage;
+// react-native-image-picker
+import com.imagepicker.ImagePickerPackage;
 // react-native-reanimated
 import com.swmansion.reanimated.ReanimatedPackage;
 
@@ -67,6 +69,7 @@ public class PackageList {
       new MainReactPackage(mConfig),
       new AsyncStoragePackage(),
       new RNCameraPackage(),
+      new ImagePickerPackage(),
       new ReanimatedPackage()
     ));
   }

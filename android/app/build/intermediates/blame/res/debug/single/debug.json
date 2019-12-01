@@ -408,6 +408,10 @@
         "source": "/home/servulo/.gradle/caches/transforms-2/files-2.1/b54c52e5b3457dbe4d28c35bc54dfa37/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "/home/servulo/ProjetosMobile/ifreport/android/app/build/intermediates/res/merged/debug/layout_list_item.xml.flat",
+        "source": "/home/servulo/ProjetosMobile/ifreport/node_modules/react-native-image-picker/android/build/intermediates/packaged_res/debug/layout/list_item.xml"
+    },
+    {
         "merged": "/home/servulo/ProjetosMobile/ifreport/android/app/build/intermediates/res/merged/debug/layout_dev_loading_view.xml.flat",
         "source": "/home/servulo/.gradle/caches/transforms-2/files-2.1/cf802cc8ffe4c09c71fa0a066457805f/res/layout/dev_loading_view.xml"
     },
@@ -1010,6 +1014,10 @@
     {
         "merged": "/home/servulo/ProjetosMobile/ifreport/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "/home/servulo/.gradle/caches/transforms-2/files-2.1/001aabd16520a25bc6004dc0ad20d35d/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/servulo/ProjetosMobile/ifreport/android/app/build/intermediates/res/merged/debug/xml_provider_paths.xml.flat",
+        "source": "/home/servulo/ProjetosMobile/ifreport/node_modules/react-native-image-picker/android/build/intermediates/packaged_res/debug/xml/provider_paths.xml"
     },
     {
         "merged": "/home/servulo/ProjetosMobile/ifreport/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",

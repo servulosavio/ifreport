@@ -56,6 +56,16 @@
             android:name="com.google.firebase.ml.vision.DEPENDENCIES"
             android:value="ocr, face" />
 
+        <provider
+            android:name="com.imagepicker.FileProvider"
+            android:authorities="com.ifreport.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
             android:enabled="true"

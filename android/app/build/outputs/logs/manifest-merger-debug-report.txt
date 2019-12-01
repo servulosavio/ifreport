@@ -6,6 +6,7 @@ INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/Android
 INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:1:1-46:12
 MERGED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:1:1-46:12
 MERGED from [:react-native-camera] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:2:1-18:12
+MERGED from [:react-native-image-picker] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
 MERGED from [:@react-native-community_async-storage] /home/servulo/ProjetosMobile/ifreport/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-reanimated] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.61.4] /home/servulo/.gradle/caches/transforms-2/files-2.1/cf802cc8ffe4c09c71fa0a066457805f/AndroidManifest.xml:2:1-13:12
@@ -131,6 +132,8 @@ application
 ADDED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:18:5-44:19
 MERGED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:18:5-44:19
 MERGED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml:18:5-44:19
+MERGED from [:react-native-image-picker] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
 MERGED from [com.facebook.react:react-native:0.61.4] /home/servulo/.gradle/caches/transforms-2/files-2.1/cf802cc8ffe4c09c71fa0a066457805f/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.61.4] /home/servulo/.gradle/caches/transforms-2/files-2.1/cf802cc8ffe4c09c71fa0a066457805f/AndroidManifest.xml:11:5-20
 MERGED from [com.google.firebase:firebase-analytics:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/e5454ea47d9ec81c163cc20c3bd37b7f/AndroidManifest.xml:7:5-20
@@ -243,6 +246,8 @@ INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/Android
 INJECTED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidManifest.xml
 MERGED from [:react-native-camera] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-camera] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:@react-native-community_async-storage] /home/servulo/ProjetosMobile/ifreport/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:@react-native-community_async-storage] /home/servulo/ProjetosMobile/ifreport/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-reanimated] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
@@ -405,6 +410,22 @@ ADDED from [:react-native-camera] /home/servulo/ProjetosMobile/ifreport/node_mod
 		ADDED from [:react-native-camera] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:16:9-33
 	android:name
 		ADDED from [:react-native-camera] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:15:9-57
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+	android:resource
+		ADDED from [:react-native-image-picker] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+	android:name
+		ADDED from [:react-native-image-picker] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/cbc3e500aa7918b87ed8c9857f49cc37/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/849df2860220818bb3ecea83aa9476a4/AndroidManifest.xml:23:5-79

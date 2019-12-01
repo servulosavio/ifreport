@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   StyleSheet,
   View,
@@ -23,6 +24,17 @@ export default class NewReportScreen extends React.Component {
       ></Image>
     )
   };
+
+
+  state = {
+    descricao: '',
+    critica: '',
+    sugestao: '',
+    elogio: '',
+    outros: '',
+    
+  };
+
 
   render() {
     return (
@@ -80,15 +92,15 @@ export default class NewReportScreen extends React.Component {
           <View style={{ flexDirection: "column" }}>
             <View style={{ flexDirection: "row" }}>
               <CheckBox
-              //   value={this.state.checked}
-              //   onValueChange={() => this.setState({ checked: !this.state.checked })}
+                value={this.state.checked}
+                onValueChange={() => this.setState({ critica: !this.state.checked })}
               />
               <Text style={{ marginTop: 5 }}> Crítica</Text>
             </View>
             <View style={{ flexDirection: "row" }}>
               <CheckBox
-              //   value={this.state.checked}
-              //   onValueChange={() => this.setState({ checked: !this.state.checked })}
+                value={this.state.checked}
+                onValueChange={() => this.setState({ checked: !this.state.checked })}
               />
               <Text style={{ marginTop: 5 }}> Sugestão</Text>
             </View>

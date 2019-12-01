@@ -42,12 +42,9 @@ export default class HomeScreen extends React.Component {
     this.readAll();
   }
 
-  // clear = async () => {
-  //   await AsyncStorage.clear();
-  //   this.readAll();
-  // };
+  
 
-  // eslint-disable-next-line prettier/prettier
+
   onAdd = async (gitOwner, gitRepository) => {
     const apiCall = await fetch(
       "https://api.github.com/repos/" + gitOwner + "/" + gitRepository
@@ -67,7 +64,7 @@ export default class HomeScreen extends React.Component {
       owner_location: responseUser.location
     };
 
-    //this.onAdd(response.id, response.description, response.owner.login, response.owner.id, responseUser.location);
+    
 
     const repositories = [...this.state.repositories, newRepository];
 
@@ -116,6 +113,10 @@ export default class HomeScreen extends React.Component {
       <View style={styles.container}>
         <View style={styles.header}>
           <Text style={styles.headerText}>IF Report</Text>
+
+          <TouchableOpacity onPress={() => this.openModal()}>
+            <Text style={styles.headerButton}>+</Text>
+          </TouchableOpacity>
 
         </View>
 
