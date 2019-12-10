@@ -10,6 +10,7 @@ import LoginScreen from "./screens/LoginScreen";
 import LoadingLoginScreen from "./screens/LoadingLoginScreen";
 import CamScreen from "./screens/CamScreen";
 import LogoutScreen from "./screens/LogoutScreen";
+import NewUserScreen from "./screens/NewUserScreen"
 
 export default class App extends React.Component {
   render() {
@@ -31,7 +32,7 @@ const DrawerNavigatorAdmin = createDrawerNavigator(
     Home: HomeScreenAdmin,
     NewAviso: NewAvisoScreen,
   
-    Mural: HomeScreenUser, // TEMPORÁRIO PARA TESTE
+    // Mural: HomeScreenUser, // TEMPORÁRIO PARA TESTE
     Sair: LogoutScreen,
     // NewReport: NewReportScreen
   },
@@ -49,6 +50,7 @@ const DrawerNavigatorUsuario = createDrawerNavigator(
     Home: HomeScreenUser,
     NewReport: NewReportScreen,
     Sair: LogoutScreen,
+    // Temp: HomeScreenAdmin,// TEMPORÁRIO PARA TESTE
   },
   {
     initialRouteName: "Home",
@@ -99,6 +101,7 @@ const SwitchNavigator = createSwitchNavigator(
     StackUsuario: StackNavigatorUsuario,
     LoadingLogin: LoadingLoginScreen,
     Login: LoginScreen,
+    NewUser: NewUserScreen,
   },{
     initialRouteName: 'LoadingLogin',
     navigationOptions: {

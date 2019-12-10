@@ -189,7 +189,8 @@ export default class HomeScreenAdmin extends React.Component {
     return (
       <View style={styles.container}>
         <View style={styles.header}>
-          <Text style={styles.headerText}>IF Report</Text>
+        <Image source={require("../images/logo.jpg")} style={styles.logoTop} />
+          <Text style={styles.headerText}> IF Report</Text>
         </View>
 
         <ScrollView style={styles.scroll}>
@@ -270,11 +271,11 @@ const styles = StyleSheet.create({
 
   header: {
     alignItems: "center",
-    justifyContent: "space-between",
+    // justifyContent: "space-between",
     height: 60,
     backgroundColor: "green",
     flexDirection: "row",
-    paddingTop: 20,
+    // paddingTop: 20,
     paddingHorizontal: 20
   },
 
@@ -300,5 +301,10 @@ const styles = StyleSheet.create({
   icon: {
     height: 20,
     width: 20
+  },
+
+  logoTop: {
+    height: 50,
+    width: 50
   }
 });

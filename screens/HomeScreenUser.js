@@ -37,12 +37,6 @@ export default class HomeScreenUser extends React.Component {
     };
   }
 
-  // state = {
-  //   reports: [],
-  //   repositories: [],
-  //   modalVisible: false
-  // };
-
   openModal = () => {
     this.setState({ modalVisible: true });
   };
@@ -52,41 +46,8 @@ export default class HomeScreenUser extends React.Component {
   };
 
   async componentDidMount() {
-    this.readAll();
     this.readAvisos();
   }
-
-  onAdd = async (gitOwner, gitRepository) => {
-    const apiCall = await fetch(
-      "https://api.github.com/repos/" + gitOwner + "/" + gitRepository
-    );
-    const response = await apiCall.json();
-
-    const apiUser = await fetch(response.owner.url);
-    const responseUser = await apiUser.json();
-
-    const newRepository = {
-      id: Math.random() * 1000,
-      id_repository: response.id,
-      description: response.description,
-      avatar_url: response.owner.avatar_url,
-      owner: response.owner.login,
-      owner_id: response.owner.id,
-      owner_location: responseUser.location
-    };
-
-    const repositories = [...this.state.repositories, newRepository];
-
-    // this.setState({
-    //   repositories,
-    //   modalVisible: false
-    // });
-
-    await AsyncStorage.setItem(
-      "@ProjetoTest:repositories",
-      JSON.stringify(repositories)
-    );
-  };
 
   onAddReport = async () => {
     const apiCallReport = await fetch(
@@ -116,31 +77,7 @@ export default class HomeScreenUser extends React.Component {
     this.setState({ modalVisible: false });
   };
 
-  onDell = async id => {
-    repositories = this.state.repositories;
-
-    var i;
-    for (i = 0; i < repositories.length; i++) {
-      if (repositories[i].id === id) {
-        repositories.splice(i, 1);
-
-        break;
-      }
-    }
-    this.setState({ repositories });
-    await AsyncStorage.setItem(
-      "@ProjetoTest:repositories",
-      JSON.stringify(repositories)
-    );
-  };
-
-  readAll = async () => {
-    repositories =
-      JSON.parse(await AsyncStorage.getItem("@ProjetoTest:repositories")) || [];
-
-    this.setState({ repositories });
-  };
-
+  
   // LISTAR TODOS OS AVISOS
   readAvisos = async () => {
     this.setState({ modalVisible: true });
@@ -168,35 +105,11 @@ export default class HomeScreenUser extends React.Component {
         
 
         <View style={styles.header}>
-          <Text style={styles.headerText}>IF Report - Usuario</Text>
+          <Image source={require("../images/logo.jpg")} style={styles.logoTop} />
+          <Text style={styles.headerText}> IF Report</Text>
         </View>
 
-        <ScrollView style={styles.scroll}>
-          {/* {this.state.repositories.map(repository => (
-            <TouchableOpacity
-              key={repository.id}
-              onPress={() =>
-                this.props.navigation.navigate("ReportDetails", {
-                  repository: repository
-                })
-              }
-            >
-              <Repository
-                key={repository.id}
-                id_repository={repository.id_repository}
-                description={repository.description}
-                avatar_url={repository.avatar_url}
-                owner={repository.owner}
-                owner_id={repository.owner_id}
-                owner_location={repository.owner_location}
-                onDell={this.onDell}
-                repositoryid={repository.id}
-              />
-              
-            </TouchableOpacity>
-          ))} */}
-
-          
+        <ScrollView style={styles.scroll}>   
 
           {this.state.data.map(obj => (
             <Aviso
@@ -247,11 +160,11 @@ const styles = StyleSheet.create({
 
   header: {
     alignItems: "center",
-    justifyContent: "space-between",
+    // justifyContent: "space-between",
     height: 60,
     backgroundColor: "green",
     flexDirection: "row",
-    paddingTop: 20,
+    // paddingTop: 20,
     paddingHorizontal: 20
   },
 
@@ -277,5 +190,12 @@ const styles = StyleSheet.create({
   icon: {
     height: 20,
     width: 20
+  },
+
+  logoTop: {
+    height: 50,
+    width: 50
   }
+
+
 });

@@ -47,12 +47,10 @@ export default class NewAvisoScreen extends React.Component {
   }
 
   addAviso = async () => {
-    
     let collectionAviso = {};
-    collectionAviso.titulo = this.state.titulo,
-    collectionAviso.mensagem = this.state.mensagem,
-    collection.usuario = await AsyncStorage.getItem("@IfReport:usuario"),
-    console.warn(collectionAviso);
+    (collectionAviso.titulo = this.state.titulo),
+      (collectionAviso.mensagem = this.state.mensagem),
+      (collectionAviso.usuario = await AsyncStorage.getItem("@IfReport:usuario"));
 
     var url = "http://ifreport.hol.es/api/aviso/adiciona";
     // var data = {username: 'example'};
@@ -64,57 +62,68 @@ export default class NewAvisoScreen extends React.Component {
         "Content-Type": "application/json"
       })
     })
-      .then(res => res.status==200? Alert.alert("Enviado!", "Aviso postado no mural!") : Alert.alert(res.statusText))
+      .then(res =>
+        res.status == 200
+          ? Alert.alert("Enviado!", "Aviso postado no mural!")
+          : Alert.alert(res.statusText)
+      )
       .catch(res => Alert.alert(res.statusText));
-      // .then(response => alert(response));
+    // .then(response => alert(response));
 
-      //ERA ASSIM
-      // .then(res => res.json())
-      // .catch(error => console.error("Error:", error))
-      // .then(response => alert(response));
+    //ERA ASSIM
+    // .then(res => res.json())
+    // .catch(error => console.error("Error:", error))
+    // .then(response => alert(response));
 
-      // Alert.alert("Enviado!", "Aviso postado no mural!");
-      // this.props.navigation.navigate('Home');
+    // Alert.alert("Enviado!", "Aviso postado no mural!");
+    // this.props.navigation.navigate('Home');
 
-      
-      this.props.navigation.navigate('Home');
-
-
-    
+    this.props.navigation.navigate("Home");
   };
 
   render() {
     return (
       <View style={styles.container}>
-        <Text style={{ fontWeight: "bold" }}> Novo Aviso</Text>
+        <View style={styles.header}>
+          <Image
+            source={require("../images/logo.jpg")}
+            style={styles.logoTop}
+          />
+          <Text style={styles.headerText}> IF Report</Text>
+        </View>
 
-        <TextInput
-          style={styles.boxInput}
-          placeholder="Título..."
-          value={this.state.titulo}
-          onChangeText={(text) => this.updateValue(text, "titulo")}
-          autoFocus
-        />
-        <TextInput
-          style={styles.boxInputG}
-          placeholder="Mensagem..."
-          value={this.state.mensagem}
-          onChangeText={(text) => this.updateValue(text, "mensagem")}
-          multiline
-        />
+        <View style={styles.body}>
+          <Text style={{ fontWeight: "bold" }}> Novo Aviso</Text>
 
-        
+          <TextInput
+            style={styles.boxInput}
+            placeholder="Título..."
+            value={this.state.titulo}
+            onChangeText={text => this.updateValue(text, "titulo")}
+            autoFocus
+          />
+          <TextInput
+            style={styles.boxInputG}
+            placeholder="Mensagem..."
+            value={this.state.mensagem}
+            onChangeText={text => this.updateValue(text, "mensagem")}
+            multiline
+          />
 
-        <View style={styles.buttonContainer}>
-          <TouchableOpacity
-            style={styles.buttonCancel}
-            onPress={() => this.props.navigation.navigate("Home")}
-          >
-            <Text style={styles.buttonText}>Cancelar</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.buttonAdd} onPress={() => this.addAviso()}>
-            <Text style={styles.buttonText}>Enviar</Text>
-          </TouchableOpacity>
+          <View style={styles.buttonContainer}>
+            <TouchableOpacity
+              style={styles.buttonCancel}
+              onPress={() => this.props.navigation.navigate("Home")}
+            >
+              <Text style={styles.buttonText}>Cancelar</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={styles.buttonAdd}
+              onPress={() => this.addAviso()}
+            >
+              <Text style={styles.buttonText}>Enviar</Text>
+            </TouchableOpacity>
+          </View>
         </View>
       </View>
     );
@@ -122,11 +131,16 @@ export default class NewAvisoScreen extends React.Component {
 }
 
 const styles = StyleSheet.create({
-  container: {
+  body: {
     marginTop: 50,
     margin: 20,
     alignContent: "center",
     justifyContent: "center"
+  },
+
+  container: {
+    flex: 1,
+    backgroundColor: "#fff"
   },
 
   boxInput: {
@@ -184,5 +198,25 @@ const styles = StyleSheet.create({
   icon: {
     height: 20,
     width: 20
+  },
+
+  header: {
+    alignItems: "center",
+    // justifyContent: "space-between",
+    height: 60,
+    backgroundColor: "green",
+    flexDirection: "row",
+    // paddingTop: 20,
+    paddingHorizontal: 20
+  },
+
+  logoTop: {
+    height: 50,
+    width: 50
+  },
+  headerText: {
+    fontWeight: "bold",
+    fontSize: 22,
+    color: "white"
   }
 });

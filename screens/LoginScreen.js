@@ -15,15 +15,6 @@ import LoadingModal from "../components/LoadingModal";
 import AsyncStorage from "@react-native-community/async-storage";
 
 export default class LoginScreen extends React.Component {
-  // static navigationOptions = {
-  //   drawerLabel: "Reportar",
-  //   drawerIcon: ({ tintColor }) => (
-  //     <Image
-  //       source={require("../images/paper-plane.png")}
-  //       style={styles.icon}
-  //     ></Image>
-  //   )
-  // };
 
   state = {
     usuario: "",
@@ -31,13 +22,88 @@ export default class LoginScreen extends React.Component {
     modalVisible: false
   };
 
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     data: []
+  //   };
+  // }
+
+  // async componentDidMount() {
+  //   this.readAvisos();
+  //   console.warn("Teste: ", this.state.data.usuario.nome);
+  // }
+
+
+  // // LISTAR TODOS OS AVISOS
+  // readAvisos = async () => {
+  //   // this.setState({ modalVisible: true });
+
+  //   let URL = "http://ifreport.hol.es/api/usuario/lista";
+  //   fetch(URL)
+  //     .then(function(response) {
+  //       let data = response.json();
+  //       return data;
+        
+  //     })
+  //     .then(json => {
+  //       // console.log("mensagens: ", json);
+  //       this.setState({ data: json, modalVisible: false });
+  //     })
+  //     // .catch(function(ex) {
+  //     //   console.log("parsing failed", ex);
+  //     // })
+  //     ;
+  //     console.warn(data);
+      
+
+      
+
+  // };
+
+
+
+  // login = async () => {
+    
+  //   if (
+  //     this.state.usuario.trim().length == 0 ||
+  //     this.state.senha.trim().length == 0
+  //   ) {
+  //     Alert.alert("Ops...", "Insira o Usuário e Senha para continuar!");
+  //   } else {
+  //     this.setState({ modalVisible: true });
+
+  //     var usuario = this.state.data.map(user => user.email);
+  //     var senha = this.state.data.map(user => user.senha);
+
+  //     try {
+  //       if (usuario === usuario && senha === senha) {
+  //         await AsyncStorage.setItem("@IfReport:usuario", usuario);
+  //         this.setState({ modalVisible: false });
+
+  //         this.props.navigation.navigate("StackUsuario");
+  //       } else if (usuario === "admin" && senha === "123") {
+  //         await AsyncStorage.setItem("@IfReport:usuario", usuario);
+  //         this.setState({ modalVisible: false });
+
+  //         this.props.navigation.navigate("StackAdmin");
+  //       } else {
+  //         this.setState({ modalVisible: false });
+  //         Alert.alert(
+  //           "Erro ao tentar fazer login...",
+  //           "Confira Usuário e Senha e tente novamente!"
+  //         );
+  //       }
+  //     } catch (erro) {
+  //       this.setState({ modalVisible: false });
+  //       Alert.alert("Erro ao Fazer Login", erro);
+  //     }
+  //   }
+  // };
   
 
+
   login = async () => {
-
-    
-    
-
     if (
       this.state.usuario.trim().length == 0 ||
       this.state.senha.trim().length == 0
@@ -48,7 +114,6 @@ export default class LoginScreen extends React.Component {
 
       var usuario = this.state.usuario;
       var senha = this.state.senha;
-      
 
       try {
         if (usuario === "usuario" && senha === "123") {
@@ -78,6 +143,8 @@ export default class LoginScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+
+      
         <View>
           {/* <Text> Novo Report</Text> */}
 
@@ -103,6 +170,14 @@ export default class LoginScreen extends React.Component {
             value={this.state.senha}
             onChangeText={senha => this.setState({ senha })}
           />
+
+          <View style={{ margin: 5 }}>
+            <TouchableOpacity
+              onPress={() => this.props.navigation.navigate("NewUser")}
+            >
+              <Text>Criar novo usuario</Text>
+            </TouchableOpacity>
+          </View>
 
           <View style={styles.buttonContainer}>
             <TouchableOpacity
@@ -183,5 +258,5 @@ const styles = StyleSheet.create({
   logoContainer: {
     alignItems: "center",
     justifyContent: "center"
-  },
+  }
 });
