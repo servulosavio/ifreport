@@ -149,7 +149,7 @@ export default class LoginScreen extends React.Component {
           {/* <Text> Novo Report</Text> */}
 
           <View style={styles.logoContainer}>
-            <Image source={require("../images/logo.jpg")} style={styles.logo} />
+            <Image source={require("../images/logo.png")} style={styles.logo} />
           </View>
 
           <TextInput

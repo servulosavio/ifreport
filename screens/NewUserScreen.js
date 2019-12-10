@@ -93,7 +93,7 @@ export default class NewUserScreen extends React.Component {
       <View style={styles.container}>
         <View>
           <View style={styles.logoContainer}>
-            <Image source={require("../images/logo.jpg")} style={styles.logo} />
+            <Image source={require("../images/logo.png")} style={styles.logo} />
           </View>
 
           <Text style={styles.title}>Novo Usuário</Text>

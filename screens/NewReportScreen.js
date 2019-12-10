@@ -90,7 +90,7 @@ export default class NewReportScreen extends React.Component {
       <View style={styles.container}>
         <View style={styles.header}>
           <Image
-            source={require("../images/logo.jpg")}
+            source={require("../images/logo.png")}
             style={styles.logoTop}
           />
           <Text style={styles.headerText}> IF Report</Text>

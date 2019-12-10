@@ -189,7 +189,7 @@ export default class HomeScreenAdmin extends React.Component {
     return (
       <View style={styles.container}>
         <View style={styles.header}>
-        <Image source={require("../images/logo.jpg")} style={styles.logoTop} />
+        <Image source={require("../images/logo.png")} style={styles.logoTop} />
           <Text style={styles.headerText}> IF Report</Text>
         </View>
 

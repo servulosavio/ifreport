@@ -105,7 +105,7 @@ export default class HomeScreenUser extends React.Component {
         
 
         <View style={styles.header}>
-          <Image source={require("../images/logo.jpg")} style={styles.logoTop} />
+          <Image source={require("../images/logo.png")} style={styles.logoTop} />
           <Text style={styles.headerText}> IF Report</Text>
         </View>
 
