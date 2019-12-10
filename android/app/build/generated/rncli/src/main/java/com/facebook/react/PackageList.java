@@ -16,6 +16,8 @@ import com.ifreport.R;
 
 // @react-native-community/async-storage
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
+// @react-native-community/checkbox
+import com.reactnativecommunity.checkbox.ReactCheckBoxPackage;
 // react-native-camera
 import org.reactnative.camera.RNCameraPackage;
 // react-native-image-picker
@@ -68,6 +70,7 @@ public class PackageList {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
       new AsyncStoragePackage(),
+      new ReactCheckBoxPackage(),
       new RNCameraPackage(),
       new ImagePickerPackage(),
       new ReanimatedPackage()

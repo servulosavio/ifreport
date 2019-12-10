@@ -1,9 +1,11 @@
 import React from "react";
 import { createStackNavigator, createDrawerNavigator, createSwitchNavigator } from "react-navigation";
 
-import HomeScreen from "./screens/HomeScreen";
+import HomeScreenAdmin from "./screens/HomeScreenAdmin";
+import HomeScreenUser from "./screens/HomeScreenUser"
 import ReportDetailsScreen from "./screens/ReportDetailsScreen";
 import NewReportScreen from "./screens/NewReportScreen";
+import NewAvisoScreen from "./screens/NewAvisoScreen";
 import LoginScreen from "./screens/LoginScreen";
 import LoadingLoginScreen from "./screens/LoadingLoginScreen";
 import CamScreen from "./screens/CamScreen";
@@ -26,7 +28,10 @@ takePicture = async () => {
 
 const DrawerNavigatorAdmin = createDrawerNavigator(
   {
-    Home: HomeScreen,
+    Home: HomeScreenAdmin,
+    NewAviso: NewAvisoScreen,
+  
+    Mural: HomeScreenUser, // TEMPORÁRIO PARA TESTE
     Sair: LogoutScreen,
     // NewReport: NewReportScreen
   },
@@ -41,7 +46,7 @@ const DrawerNavigatorAdmin = createDrawerNavigator(
 
 const DrawerNavigatorUsuario = createDrawerNavigator(
   {
-    Home: HomeScreen,
+    Home: HomeScreenUser,
     NewReport: NewReportScreen,
     Sair: LogoutScreen,
   },
@@ -57,7 +62,7 @@ const DrawerNavigatorUsuario = createDrawerNavigator(
 const StackNavigatorAdmin = createStackNavigator(
   {
     DrawerNavigator: DrawerNavigatorAdmin,
-    Home: HomeScreen,
+    Home: HomeScreenAdmin,
     ReportDetails: ReportDetailsScreen,
     // NewReport: NewReportScreen
   },
@@ -74,7 +79,7 @@ const StackNavigatorAdmin = createStackNavigator(
 const StackNavigatorUsuario = createStackNavigator(
   {
     DrawerNavigator: DrawerNavigatorUsuario,
-    Home: HomeScreen,
+    Home: HomeScreenUser,
     ReportDetails: ReportDetailsScreen,
     Cam: CamScreen,
     

@@ -1,18 +1,23 @@
 import React from "react";
 
+import CheckBox from "@react-native-community/checkbox";
+
 import {
   StyleSheet,
   View,
   TextInput,
   Text,
   TouchableOpacity,
-  CheckBox,
-  Image
+  Image,
+  Picker,
+  Alert
 } from "react-native";
 
 import { RNCamera } from "react-native-camera";
 
 import Repository from "../components/Repository";
+import { bold } from "colorette";
+import AsyncStorage from "@react-native-community/async-storage";
 
 export default class NewReportScreen extends React.Component {
   static navigationOptions = {
@@ -25,103 +30,92 @@ export default class NewReportScreen extends React.Component {
     )
   };
 
+  constructor() {
+    super();
+    this.state = {
+      descricao: "",
+      classificacao: "",
+      usuario: ""
+    };
+  }
 
-  state = {
-    descricao: '',
-    critica: '',
-    sugestao: '',
-    elogio: '',
-    outros: '',
+  updateValue(text, field) {
+    if (field == "descricao") {
+      this.setState({ descricao: text });
+    } else if (field == "classificacao") {
+      this.setState({ classificacao: text });
+    }
+  }
+
+  add = async () => {
+    // var usuarioAutenticado;
+    // usuarioAutenticado = await AsyncStorage.getItem("@IfReport:usuario");
+    
+    let collection = {};
+    collection.descricao = this.state.descricao,
+    collection.classificacao = this.state.classificacao,
+    collection.usuario = await AsyncStorage.getItem("@IfReport:usuario"),
+    console.warn(collection);
+
+    var url = "http://ifreport.hol.es/api/report/adiciona";
+    // var data = {username: 'example'};
+
+    fetch(url, {
+      method: "POST", // or PUT
+      body: JSON.stringify(collection),
+      headers: new Headers({
+        "Content-Type": "application/json"
+      })
+    })
+    .then(res => res.status==200? Alert.alert("Enviado!", "Obrigado pela sua contribuição!") : Alert.alert(res.statusText))
+    .catch(res => Alert.alert(res.statusText));
+    // .then(response => alert(response));
+
+    //ERA ASSIM
+    // .then(res => res.json())
+    // .catch(error => console.error("Error:", error))
+    // .then(response => alert(response));
+
+    // Alert.alert("Enviado!", "Aviso postado no mural!");
+    // this.props.navigation.navigate('Home');
+
+      
+      this.props.navigation.navigate('Home')
     
   };
-
 
   render() {
     return (
       <View style={styles.container}>
-        <Text> Novo Report</Text>
+        <Text style={{ fontWeight: "bold" }}> Novo Report</Text>
 
         <TextInput
           style={styles.boxInputG}
           placeholder="Descrição..."
-          // value={this.state.owner}
-          // onChangeText={text => this.setState({owner: text})}
+          value={this.state.descricao}
+          onChangeText={(text) => this.updateValue(text, "descricao")}
           multiline
           autoFocus
         />
 
-        {/* <TextInput
-          style={styles.boxInput}
-          placeholder="Nome do Repositório"
-          // value={this.state.repository}
-          // onChangeText={text => this.setState({repository: text})}
-        /> */}
+        <View>
+          <Text style={{ fontWeight: "bold" }}>
+            Como você classifica o seu comentário?
+          </Text>
 
-        <View style={{ flexDirection: "column", marginBottom: 10, marginTop: 10 }}>
-          <TouchableOpacity
-            onPress={() => this.props.navigation.navigate("Cam")}
+          <Picker
+            selectedValue={this.state.classificacao}
+            mode={"dialog"}
+            style={{ height: 25, width: 150 }}
+            onValueChange={itemValue =>
+              this.setState({ classificacao: itemValue })
+            }
           >
-            <View style={{ flexDirection: "row", marginBottom: 10 }}>
-              <Image
-                source={require("../images/photo-camera.png")}
-                style={styles.icon}
-              />
-
-              <Text style={styles.buttonText2}> Capturar Imagem</Text>
-            </View>
-          </TouchableOpacity>
-
-          <TouchableOpacity
-          //   onPress={() => this.add()}
-          >
-            <View style={{ flexDirection: "row" }}>
-              <Image
-                source={require("../images/picture.png")}
-                style={styles.icon}
-              />
-
-              <Text style={styles.buttonText2}> Inserir Imagem</Text>
-            </View>
-          </TouchableOpacity>
-          
-        </View>
-
-        <Text> Como você classifica o seu comentário?</Text>
-
-        <View style={{ flexDirection: "row", justifyContent: "space-around" }}>
-          <View style={{ flexDirection: "column" }}>
-            <View style={{ flexDirection: "row" }}>
-              <CheckBox
-                value={this.state.checked}
-                onValueChange={() => this.setState({ critica: !this.state.checked })}
-              />
-              <Text style={{ marginTop: 5 }}> Crítica</Text>
-            </View>
-            <View style={{ flexDirection: "row" }}>
-              <CheckBox
-                value={this.state.checked}
-                onValueChange={() => this.setState({ checked: !this.state.checked })}
-              />
-              <Text style={{ marginTop: 5 }}> Sugestão</Text>
-            </View>
-          </View>
-
-          <View style={{ flexDirection: "column" }}>
-            <View style={{ flexDirection: "row" }}>
-              <CheckBox
-              //   value={this.state.checked}
-              //   onValueChange={() => this.setState({ checked: !this.state.checked })}
-              />
-              <Text style={{ marginTop: 5 }}> Elogio</Text>
-            </View>
-            <View style={{ flexDirection: "row" }}>
-              <CheckBox
-              //   value={this.state.checked}
-              //   onValueChange={() => this.setState({ checked: !this.state.checked })}
-              />
-              <Text style={{ marginTop: 5 }}> Outros</Text>
-            </View>
-          </View>
+            <Picker.Item label="Crítica" value="Crítica" />
+            <Picker.Item label="Sugestão" value="Sugestão" />
+            <Picker.Item label="Elogio" value="Elogio" />
+            <Picker.Item label="Outros" value="Outros" />
+          </Picker>
         </View>
 
         <View style={styles.buttonContainer}>
@@ -131,10 +125,7 @@ export default class NewReportScreen extends React.Component {
           >
             <Text style={styles.buttonText}>Cancelar</Text>
           </TouchableOpacity>
-          <TouchableOpacity
-            style={styles.buttonAdd}
-            //   onPress={() => this.add()}
-          >
+          <TouchableOpacity style={styles.buttonAdd} onPress={() => this.add()}>
             <Text style={styles.buttonText}>Enviar</Text>
           </TouchableOpacity>
         </View>
@@ -168,6 +159,7 @@ const styles = StyleSheet.create({
   },
 
   buttonContainer: {
+    marginTop: 30,
     alignContent: "center",
     justifyContent: "center",
     flexDirection: "row",

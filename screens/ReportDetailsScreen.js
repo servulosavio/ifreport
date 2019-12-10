@@ -1,38 +1,55 @@
 import React from "react";
-import { StyleSheet, View, TextInput } from "react-native";
+import { StyleSheet, View, TextInput, Text } from "react-native";
 
 import Repository from "../components/Repository";
 
 export default class ReportDetailsScreen extends React.Component {
+  
+  state = {
+    descricao: '',
+    classificacao: '',
+    usuario: '',
+    data_report: ''
+  }
+
+
+  async componentDidMount() {
+    
+
+    const apiCall = await fetch("http://ifreport.hol.es/api/report/detalhe/"+id);
+    const response = await apiCall.json();
+    
+    console.warn(response);
+
+    this.setState.descricao = response.descricao;
+    this.setState.classificacao = response.classificacao;
+    this.setState.usuario = response.usuario;
+    this.setState.data_report = response.data_report;
+    
+
+    
+    
+
+  };
+  
   render() {
     return (
       <View style={styles.container}>
-        <TextInput
-          style={styles.boxInput}
-          placeholder="Nome do Usuário"
-          // value={this.state.owner}
-          // onChangeText={text => this.setState({owner: text})}
-          autoFocus
-        />
-        <TextInput
-          style={styles.boxInput}
-          placeholder="Nome do Repositório"
-          // value={this.state.repository}
-          // onChangeText={text => this.setState({repository: text})}
-        />
-
-        <View style={styles.buttonContainer}>
-          {/* <TouchableOpacity
-              style={styles.buttonAdd}
-              onPress={() => this.add()}>
-              <Text style={styles.buttonText}>Adicionar</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              style={styles.buttonCancel}
-              onPress={() => this.props.onCancel()}>
-              <Text style={styles.buttonText}>Cancelar</Text>
-            </TouchableOpacity> */}
+        <View style={styles.header}>
+          <Text style={styles.headerText}>IF Report</Text>
         </View>
+
+
+
+        <Text>{this.state.descricao}</Text>
+        {/* <Text style={{ marginTop: 10, marginBottom: 10, fontWeight: "bold" }}>{this.props.classificacao}</Text>
+        <Text style={{ marginBottom: 10 }}>{this.props.usuario}</Text>
+        <Text style={{ textAlign: "right", fontSize: 10 }}>{this.props.data_report}</Text> */}
+
+        
+
+        
+        
       </View>
     );
   }
@@ -40,49 +57,64 @@ export default class ReportDetailsScreen extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 10,
-    backgroundColor: "#rgba(0, 0, 0, 0.7)",
-    alignContent: "center",
-    justifyContent: "center",
-    flex: 1
+    flex: 1,
+    backgroundColor: "#fff"
   },
 
-  boxInput: {
-    alignSelf: "stretch",
-    height: 40,
-    borderRadius: 5,
-    backgroundColor: "#DDD",
-    margin: 5
+  scroll: {
+    marginTop: 35,
+    margin: 10
   },
 
-  buttonContainer: {
-    alignContent: "center",
-    justifyContent: "center",
-    flexDirection: "row",
+  box: {
+    margin: 5,
+    padding: 20,
+    backgroundColor: "#E2E2E2",
+    alignItems: "center",
     justifyContent: "center"
   },
 
-  buttonAdd: {
-    justifyContent: "center",
-    alignItems: "center",
-    height: 40,
-    width: 80,
-    borderRadius: 5,
-    backgroundColor: "#1c1c1c",
-    margin: 5
+  title: {
+    fontSize: 15,
+    color: "black",
+    fontWeight: "bold"
   },
 
-  buttonCancel: {
-    justifyContent: "center",
-    alignItems: "center",
-    height: 40,
-    width: 80,
-    borderRadius: 5,
-    backgroundColor: "#a9a9a9",
-    margin: 5
+  subtitle: {
+    fontSize: 10
   },
 
-  buttonText: {
-    color: "#ffffff"
+  header: {
+    alignItems: "center",
+    justifyContent: "space-between",
+    height: 60,
+    backgroundColor: "green",
+    flexDirection: "row",
+    paddingTop: 20,
+    paddingHorizontal: 20
+  },
+
+  headerText: {
+    fontWeight: "bold",
+    fontSize: 22,
+    color: "white"
+  },
+
+  headerButton: {
+    fontWeight: "bold",
+    fontSize: 30,
+    color: "white"
+  },
+
+  caixa: {
+    margin: 5,
+    padding: 20,
+    backgroundColor: "#E2E2E2",
+    justifyContent: "center"
+  },
+
+  icon: {
+    height: 20,
+    width: 20
   }
 });

@@ -8,6 +8,7 @@ MERGED from /home/servulo/ProjetosMobile/ifreport/android/app/src/main/AndroidMa
 MERGED from [:react-native-camera] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:2:1-18:12
 MERGED from [:react-native-image-picker] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
 MERGED from [:@react-native-community_async-storage] /home/servulo/ProjetosMobile/ifreport/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:@react-native-community_checkbox] /home/servulo/ProjetosMobile/ifreport/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-reanimated] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.61.4] /home/servulo/.gradle/caches/transforms-2/files-2.1/cf802cc8ffe4c09c71fa0a066457805f/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.firebase:firebase-analytics:17.2.0] /home/servulo/.gradle/caches/transforms-2/files-2.1/e5454ea47d9ec81c163cc20c3bd37b7f/AndroidManifest.xml:2:1-9:12
@@ -250,6 +251,8 @@ MERGED from [:react-native-image-picker] /home/servulo/ProjetosMobile/ifreport/n
 MERGED from [:react-native-image-picker] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:@react-native-community_async-storage] /home/servulo/ProjetosMobile/ifreport/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:@react-native-community_async-storage] /home/servulo/ProjetosMobile/ifreport/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_checkbox] /home/servulo/ProjetosMobile/ifreport/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-community_checkbox] /home/servulo/ProjetosMobile/ifreport/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] /home/servulo/ProjetosMobile/ifreport/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.61.4] /home/servulo/.gradle/caches/transforms-2/files-2.1/cf802cc8ffe4c09c71fa0a066457805f/AndroidManifest.xml:7:5-9:41

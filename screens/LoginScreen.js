@@ -31,7 +31,13 @@ export default class LoginScreen extends React.Component {
     modalVisible: false
   };
 
+  
+
   login = async () => {
+
+    
+    
+
     if (
       this.state.usuario.trim().length == 0 ||
       this.state.senha.trim().length == 0
@@ -42,6 +48,7 @@ export default class LoginScreen extends React.Component {
 
       var usuario = this.state.usuario;
       var senha = this.state.senha;
+      
 
       try {
         if (usuario === "usuario" && senha === "123") {

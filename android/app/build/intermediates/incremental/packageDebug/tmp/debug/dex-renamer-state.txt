@@ -1,4 +1,4 @@
-#Sun Dec 01 19:48:13 BRT 2019
+#Sun Dec 01 21:37:10 BRT 2019
 base.0=/home/servulo/ProjetosMobile/ifreport/android/app/build/intermediates/transforms/dexMerger/debug/0
 renamed.0=classes.dex
 path.0=classes.dex
