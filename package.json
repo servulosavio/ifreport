@@ -17,7 +17,7 @@
     "react-native-camera": "^3.13.0",
     "react-native-checkbox-form": "^1.1.5",
     "react-native-image-picker": "^1.1.0",
-    "react-native-reanimated": "^1.4.0",
+    "react-native-reanimated": "^2.10.0",
     "react-navigation": "^2.18.3",
     "styled-components": "^4.4.1"
   },
